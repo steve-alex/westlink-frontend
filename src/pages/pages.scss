@@ -1,0 +1,63 @@
+.homePageContainer {
+  display: flex;
+  justify-content: center;
+  .homePage {
+    padding-top: 17%;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p {
+      padding-bottom: 3;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    button {
+      width: 190px;
+      align-self: center;
+    }
+  }
+}
+
+.bookingsPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    padding-top: 19px;
+  }
+  p, h4 {
+    text-align: left;
+    align-self: center;
+    width: 68%;
+    padding-left: 19px;
+    margin: 1px;
+  }
+}
+
+.profilePageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    padding-top: 19px;
+  }
+}
+
+.informationPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    padding-top: 19px;
+  }
+}
+
+.issuePageContainer {
+  h1 {
+    padding-top: 19px;
+  }
+}

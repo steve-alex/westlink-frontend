@@ -1,9 +1,10 @@
 import React from 'react';
+import './pages.scss';
 
 export const InformationPage = () => {
   return (
-    <div>
-      Information Page
+    <div className="informationPageContainer">
+      <h1>Information Page</h1>
     </div>
   )
 }

@@ -1,0 +1,28 @@
+.menuContainer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 69%;
+  justify-content: space-evenly;
+  a {
+    border-left: 1px solid gainsboro;
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  div {
+    width: 69%;
+    background: #282c34;
+  }
+}
